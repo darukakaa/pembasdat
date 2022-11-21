@@ -53,7 +53,7 @@ class AnggotaController extends Controller
             'nim' => 'required|unique:anggota|numeric',
             'no_hp' => 'required|numeric',
             'tgl_lahir' => 'required',
-            'jurusan' => 'required',
+            // 'jurusan' => 'required',
             'jenis_kelamin' => 'required',
             'user_id' => 'required',
             'created_at' => Carbon::now()
@@ -66,7 +66,7 @@ class AnggotaController extends Controller
             'nim' => $request->nim,
             'no_hp' => $request->no_hp,
             'tgl_lahir' => $request->tgl_lahir,
-            'jurusan' => $request->jurusan,
+            // 'jurusan' => $request->jurusan,
             'jenis_kelamin' => $request->jenis_kelamin,
             'user_id' => $request->user_id
         ]);
@@ -113,7 +113,7 @@ class AnggotaController extends Controller
             'nim' => $request->nim ?? $anggota->nim,
             'no_hp' => $request->no_hp ?? $anggota->no_hp,
             'tgl_lahir' => $request->tgl_lahir ?? $anggota->tgl_lahir,
-            'jurusan' => $request->jurusan ?? $anggota->jurusan,
+            // 'jurusan' => $request->jurusan ?? $anggota->jurusan,
             'jenis_kelamin' => $request->jenis_kelamin ?? $anggota->jenis_kelamin,
             'user_id' => $request->user_id ?? $anggota->user_id 
        ]);
