@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Perpustakaan</title>
+    <title>E-PERPUS</title>
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('template') }}/img/brand/favicon.png" type="image/png">
 
@@ -38,7 +38,7 @@
                 <!-- Brand -->
                 <div class="sidenav-header  align-items-center">
                     <a class="navbar-brand" href="javascript:void(0)">
-                        <img src="{{ asset('template') }}/img/brand/eperpus.png" class="navbar-brand-img" alt="...">
+                        <img src="{{ asset('template') }}/img/brand/eperpus.png" class="navbar-brand-img" alt="">
                     </a>
                 </div>
                 <div class="navbar-inner">
